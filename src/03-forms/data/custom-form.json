@@ -1,0 +1,74 @@
+[
+  {
+    "type": "input",
+    "name": "firstName",
+    "placeholder": "Antonia",
+    "label": "First Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "lastName",
+    "placeholder": "Cardenas",
+    "label": "Last Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "placeholder": "Email",
+    "label": "Email",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "email"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "name": "favoriteGame",
+    "label": "Favorite Game",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "label": "Super Smash"
+      },
+      {
+        "id": 2,
+        "label": "Mario Kart"
+      },
+      {
+        "id": 3,
+        "label": "Mario"
+      }
+    ]
+  }
+]
